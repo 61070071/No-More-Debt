@@ -4,5 +4,3 @@
 |:---:|:---:|:---:|:---:|
 |**Jay**|**Deen**|**Tin**|**Ome**|
 
-## อ้างอิง
-ฐานข้อมูลหลัก : [Social Blade](https://socialblade.com/youtube/top/50)
