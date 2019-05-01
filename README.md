@@ -6,11 +6,11 @@
 
 ## Language And Program
 
-C Language
-Sublime
-GTK
-Glade 3
-Visual Box
+C Language / 
+ Sublime / 
+GTK / 
+Glade 3 / 
+Visual Box / 
 
 
 ## สมาชิกกลุ่ม
