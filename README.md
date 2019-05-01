@@ -5,11 +5,11 @@
 หวังว่า แอพลิเคชั่นของเราจะเป็นประโยชน์ให้เหล่าเหรัญญิกได้ใช้งานจริง และจัดการการเก็บเงินได้ขึ้น
 
 ## Language And Program
-C Language
-Sublime
-GTK
-Glade 3
-Visual Box
+C Language\n
+Sublime\n
+GTK\n
+Glade 3\n
+Visual Box\n
 
 
 ## สมาชิกกลุ่ม
