@@ -11,8 +11,8 @@ C Language /
 GTK / 
 Glade 3 / 
 Visual Box / 
-
-
+## VDO สอนติดตั้งและการใช้งาน
+https://www.youtube.com/watch?v=e7sAwsAENOc&feature=youtu.be
 ## สมาชิกกลุ่ม
 |<img src="Team/00.jpg" width="120px" height="120px">|<img src="Team/01.jpg" width="120px" height="120px">|<img src="Team/02.jpg" width="120px" height="120px">|<img src="Team/03.jpg" width="120px" height="120px">|
 |:---:|:---:|:---:|:---:|
