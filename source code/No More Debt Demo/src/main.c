@@ -28,9 +28,10 @@ GtkWidget *text_search2;
 GtkWidget *btn_set;
 GtkWidget *btn_start;
 GtkWidget *text_search3;
+GtkWidget *text_search4;
 
 int number = 1000,person = 10,who = 0,check = 0,id = 0,idi = 0,i = 0;
-const char *day[15],*dot[5],*days[15];
+const char *day[15],*dot[5],*days[15],*pay[30];
 
 typedef struct data
 {
@@ -89,6 +90,7 @@ void on_start_button_clicked()
     lbl_input7 = GTK_WIDGET(gtk_builder_get_object(builder, "lbl_input7"));
     btn_input = GTK_WIDGET(gtk_builder_get_object(builder, "btn_input"));
     text_search3 = GTK_WIDGET(gtk_builder_get_object(builder, "text_search3"));
+    text_search3 = GTK_WIDGET(gtk_builder_get_object(builder, "text_search4"));
     *days = "DD/MM/YYYY";
     
     g_object_unref(builder);
@@ -119,6 +121,11 @@ void on_text_input_changed(GtkEntry *e)
     sprintf(input,"%lld",num*100+4);
     gtk_label_set_text(GTK_LABEL(lbl_input3), input);
 }
+void on_text_search4_changed(GtkEntry *t)
+{
+
+    *pay = (gtk_entry_get_text(t));
+}
 void on_text_search3_changed(GtkEntry *t)
 {
     char input[100] = {0};
@@ -148,7 +155,9 @@ void on_btn_input_clicked()
         sprintf(input,"%d",number+i);
         fputs(input, fp);
         fputs(" : ", fp);
-        fputs("0 \n", fp);
+        sprintf(input,"%s",*pay);
+        fputs(input, fp);
+        fputs("\n", fp);
 
 }
     fclose(fp);   
