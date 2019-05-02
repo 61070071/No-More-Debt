@@ -302,6 +302,33 @@
             <property name="y">265</property>
           </packing>
         </child>
+        <child>
+          <object class="GtkEntry" id="text_search4">
+            <property name="width_request">166</property>
+            <property name="height_request">47</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">                 amount</property>
+            <signal name="changed" handler="on_text_search4_changed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">434</property>
+            <property name="y">346</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">41</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Money</property>
+          </object>
+          <packing>
+            <property name="x">468</property>
+            <property name="y">302</property>
+          </packing>
+        </child>
       </object>
     </child>
   </object>
