@@ -90,7 +90,7 @@ void on_start_button_clicked()
     lbl_input7 = GTK_WIDGET(gtk_builder_get_object(builder, "lbl_input7"));
     btn_input = GTK_WIDGET(gtk_builder_get_object(builder, "btn_input"));
     text_search3 = GTK_WIDGET(gtk_builder_get_object(builder, "text_search3"));
-    text_search3 = GTK_WIDGET(gtk_builder_get_object(builder, "text_search4"));
+    text_search4 = GTK_WIDGET(gtk_builder_get_object(builder, "text_search4"));
     *days = "DD/MM/YYYY";
     
     g_object_unref(builder);
@@ -121,9 +121,9 @@ void on_text_input_changed(GtkEntry *e)
     sprintf(input,"%lld",num*100+4);
     gtk_label_set_text(GTK_LABEL(lbl_input3), input);
 }
+
 void on_text_search4_changed(GtkEntry *t)
 {
-
     *pay = (gtk_entry_get_text(t));
 }
 void on_text_search3_changed(GtkEntry *t)

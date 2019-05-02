@@ -325,8 +325,8 @@
             <property name="label" translatable="yes">Money</property>
           </object>
           <packing>
-            <property name="x">468</property>
-            <property name="y">302</property>
+            <property name="x">469</property>
+            <property name="y">300</property>
           </packing>
         </child>
       </object>
